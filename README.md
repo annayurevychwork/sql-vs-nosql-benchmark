@@ -20,21 +20,21 @@ MongoDB demonstrated a massive advantage in write speeds, executing **~62% faste
 *   **PostgreSQL:** 11,291 ms
 *   **MongoDB:** 4,341 ms
 
-<img src="./scr1.png" alt="Bulk Insert Results" width="500" />
+<img src="./screenshots/scr1.png" alt="Bulk Insert Results" width="500" />
 
 ### 2. Bulk Read (GET 10,000 Courses)
 PostgreSQL significantly outperformed MongoDB during read operations, being **~173% faster**. This highlights PostgreSQL's powerful query optimization engine and advanced indexing capabilities for structured data retrieval.
 *   **PostgreSQL:** 251 ms
 *   **MongoDB:** 688 ms
 
-<img src="./scr2.png" alt="Bulk Read Results" width="500" />
+<img src="./screenshots/scr2.png" alt="Bulk Read Results" width="500" />
 
 ### 3. Bulk Update (PUT All Courses)
 MongoDB slightly edged out PostgreSQL in bulk document updates, executing **~26% faster**.
 *   **PostgreSQL:** 581 ms
 *   **MongoDB:** 429 ms
 
-<img src="./scr3.png" alt="Bulk Update Results" width="500" />
+<img src="./screenshots/scr3.png" alt="Bulk Update Results" width="500" />
 
 ---
 
